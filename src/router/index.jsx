@@ -7,11 +7,11 @@ import Datafetch from "../components/Datafetch";
 import Bookcards from "../components/Bookcards";
  export const router = createBrowserRouter([
     {
-      path: "/",
+     path: "/",
       element:<Commonlayout/>,
       children:[ 
         {path:"/",
-          element:<Homepage/>
+          element:<Homepage/>  
         },
         {
         path: "/bookdetails/:book_id",
